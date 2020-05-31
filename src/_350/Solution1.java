@@ -43,6 +43,7 @@ public class Solution1 {
     }
 	/**
 	 * 方法二：排序+双指针
+	 * 时间复杂度O(mlogm+nlogn)；空间复杂度O(1)
 	 * @param nums1
 	 * @param nums2
 	 * @return
