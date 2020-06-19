@@ -2,7 +2,7 @@ package week3;
 
 
 /**
- * 作业：使用二分查找，寻找一个半有序数组中间无序的地方
+ * 作业：使用二分查找，寻找一个旋转有序数组中间无序的地方
  * 返回值是无序的起始位置，例如 [4, 5, 6, 7, 0, 1, 2]，返回值为4
  * @author xm
  *
@@ -24,7 +24,7 @@ public class practice1 {
 			if(nums[mid-1] > nums[mid]) {
 				return mid;
 			}
-			if(nums[0] < nums[mid]) {//左半部分有序，有半部分无序
+			if(nums[0] < nums[mid]) {//左半部分有序，右半部分无序
 				l=mid+1;
 			}else {//左半部分无序，右半部分有序
 				h=mid-1;
