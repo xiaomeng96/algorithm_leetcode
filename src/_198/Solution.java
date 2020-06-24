@@ -11,6 +11,8 @@ public class Solution {
 	 * base case：
 	 *     当只有1家的时候，偷窃的最高金额为nums[0];
 	 *     当有2家的时候，偷窃的最高金额为max(nums[0],nums[1])
+	 * 状态定义
+	 *     dp[i]表示前i个房子在满足条件下所能偷到的最高金额
 	 * 状态转移方程
 	 * 	     偷第k-1家就不偷第k家，dp[i] = max(dp[i-2]+nums[i], dp[i-1]);
 	 * 
