@@ -35,6 +35,7 @@ public class Solution2 {
 		}
 		
 		int crossMax=leftCrossMax+rightCrossMax;
+		
 		return Math.max(crossMax, Math.max(leftMax, rightMax));
 		
 	}
