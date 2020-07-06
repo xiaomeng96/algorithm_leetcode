@@ -4,7 +4,7 @@ package _547;
  * @author xm
  *
  */
-public class Solution {
+public class SolutionDFS {
 	/**
 	 * 方法1：DFS
 	 * 时间复杂度O(n2)
@@ -38,7 +38,7 @@ public class Solution {
     	}
     }
 	public static void main(String[] args) {
-		Solution obj = new Solution();
+		SolutionDFS obj = new SolutionDFS();
 		int[][] M = new int[][] {{1,1,0},
 			{1,1,0},
 			{0,0,1}};
