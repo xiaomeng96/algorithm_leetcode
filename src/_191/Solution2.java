@@ -2,7 +2,7 @@ package _191;
 
 public class Solution2 {
 	/**
-	 * 方法2：int类型为32位，将n与mask做逻辑与
+	 * 方法2：int类型为32位，将n与mask做按位与
 	 * mask的初始值为1，后面左移32次，分别获得n的每一位的值
 	 * @param n
 	 * @return
