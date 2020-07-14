@@ -11,6 +11,8 @@ import java.util.List;
 public class Solution {
 	/**
 	 * 回溯算法（深度优先遍历+状态重置）
+	 * 时间复杂度：O(n*n!)，backtrack被调用的次数为O(n!), 叶节点有n!个，将答案复制到数组中需要O(n)时间
+	 * 空间复杂度：O(n)，递归栈的空间，即递归的深度
 	 * @param nums
 	 * @return
 	 */
